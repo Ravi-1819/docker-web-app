@@ -52,3 +52,6 @@ ravi1819/ravi-web-app:v1
 
 ## AWS Deployment:
 Running on EC2 instance with public IP access
+## How to Run
+docker pull ravi1819/ravi-web-app:v2
+docker run -d -p 80:80 ravi1819/ravi-web-app:v2
